@@ -43,7 +43,7 @@ public class Main {
         riderSpawnerThread.start();
         busSpawnerThread.start();
 
-        Thread.sleep(10000);
+        Thread.sleep(50000);
         System.out.println("Main thread finishes");
     }
 }
